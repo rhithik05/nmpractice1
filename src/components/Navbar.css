@@ -1,0 +1,21 @@
+.nav-bar{
+    display: flex;
+    height: 100px;
+    background-color: rgb(165, 157, 157);
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.logo-section{
+    flex:1;
+    margin-left: 20px;
+}
+
+.link-section{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,24 @@
+.image-container{
+    height: 600px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.image-container img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.overlay-content{
+    position: absolute;
+    top: 50%;
+    left: 0;               /* align to the left */
+    transform: translateY(-50%);  /* only center vertically */
+    color: blue;
+    padding-left: 20px;    /* optional: some left spacing */
+    text-align: left;
+}
